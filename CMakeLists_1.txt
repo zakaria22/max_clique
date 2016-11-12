@@ -1,0 +1,5 @@
+project(graph)
+
+add_executable(graph sousgraph.cpp operation.cpp matrice.cpp matrice.py main.cpp)
+
+install(TARGETS graph RUNTIME DESTINATION bin)
